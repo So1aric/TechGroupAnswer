@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+div {
+  display: flex;
+  place-items: center;
+  margin-top: 5px;
+  position: fixed;
+}
+
+input {
+  outline: none;
+  border: none;
+  background: #444444;
+  color: white;
+}
+
+button {
+  border-radius: 0;
+  border: none;
+  border-left: 2px solid black;
+  background: #444444;
+  color: white;
+}
+
+canvas {
+  margin: 2px;
+}
